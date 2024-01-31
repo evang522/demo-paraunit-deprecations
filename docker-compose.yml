@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  php:
+    container_name: paraunit-php
+    build:
+      context: .docker/dev/php
+    volumes:
+      - ./:/app
+    environment:
+      SYMFONY_DEPRECATIONS_HELPER: disabled

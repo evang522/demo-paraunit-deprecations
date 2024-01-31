@@ -1,0 +1,21 @@
+{
+  "name": "evang522/test-paraunit",
+  "php": "8.2.12",
+  "autoload": {
+    "psr-4": {
+      "Evang522\\TestParaunit\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Evan Garrett",
+      "email": "evang522@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-dom": "*",
+    "phpunit/phpunit": "^10.5.5",
+    "facile-it/paraunit": "^2.2.3",
+    "symfony/debug-bundle": "^7.0"
+  }
+}
